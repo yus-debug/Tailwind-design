@@ -32,11 +32,11 @@ const WorkProgress: React.FC = () => {
   return (
     <div className="min-h-screen px-6 py-20 bg-white">
       {/* Work Progress heading */}
-      <div className="mb-16 flex items-center justify-between ml-40 mr-0">
-        <h2 className="text-custom-purple text-5xl font-bold font-inter">
+      <div className="mb-16 flex items-center justify-between ml-30 mr-0">
+        <h2 className="text-custom-purple text-5xl font-bold font-inter ml-20">
           Work Progress
         </h2>
-        <img src='/longline.png' alt="Timeline line" className="w-3/4" />
+        <img src='/longline.png' alt="Timeline line" className="w-2/3 " />
       </div>
       
       {/* Timeline with steps */}

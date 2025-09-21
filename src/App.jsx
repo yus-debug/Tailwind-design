@@ -3,6 +3,7 @@ import FanusAgency from './components/FanusAgency.tsx';
 import OurServices from './components/OurServices.tsx';
 import WorkProgress from './components/WorkProgress.tsx';
 import Portfolio from './components/Portfolio.tsx';
+import ContactUs from './components/ContactUs.tsx';
 function App() {
   return (
     <div 
@@ -17,6 +18,7 @@ function App() {
       <OurServices/>
       <WorkProgress/>
       <Portfolio/>
+      <ContactUs/>
     </div>
   )
 }
